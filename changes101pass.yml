@@ -5,7 +5,7 @@
   gather_facts: no
   vars:
     myuser: "root"
-    mypassword: "8;k,i^hvp^jdy[9y;"
+    mypassword: "monogroup"
   tasks:
     - name: change password
       ansible.builtin.user:
