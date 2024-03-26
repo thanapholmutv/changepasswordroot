@@ -1,7 +1,7 @@
 ---
 - name: change password linux
   hosts: all
-  become: False
+  become: true
   gather_facts: no
   vars:
     myuser: "root"
